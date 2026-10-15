@@ -12,7 +12,7 @@ class Settings(BaseSettings):
 
     # --- GroqCloud (the ONLY external AI provider) ---
     groq_api_key: str = ""
-    groq_model: str = "llama-3.3-70b-versatile"
+groq_model: str = "openai/gpt-oss-120b"
     groq_base_url: str = "https://api.groq.com/openai/v1"
     groq_timeout_seconds: float = Field(45, gt=0)
     groq_max_retries: int = Field(2, ge=0, le=5)
