@@ -1,0 +1,2 @@
+# Optional: local speech-to-text (no external API). Large download; needs ~1 GB RAM for the "base" model.
+faster-whisper>=1.0
